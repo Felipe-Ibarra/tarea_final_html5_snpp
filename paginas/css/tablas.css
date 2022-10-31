@@ -1,0 +1,32 @@
+
+.tablas {
+    background-color: #00aaff;
+    border: 3px solid #00aaff;
+    border-radius: 5px;
+    width: 55%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+table {
+	border-collapse: collapse;
+}
+table caption {
+    background-color: white;
+	color: #00aaff;
+	font-weight: 800;
+}
+th {
+	background-color: #00aaff;
+	color: white;
+}
+.celdas {
+    background-color: white;
+	border: solid 2px #00aaff;
+}
+
+td {
+    border: solid 2px #00aaff;
+}
+
+

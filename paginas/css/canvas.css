@@ -1,0 +1,33 @@
+.encabezado {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#lienzo {
+	border: 2px solid #0af;
+	background-color:white;
+	border-radius: 3px;
+	margin-left: 20%;
+}
+
+
+.anomaciones {
+    margin-left: 20%;
+	margin-bottom: 10px;
+    border: 2px solid #0af;
+	width: 600px;
+	height: 100px;
+	border-radius: 3px;
+	background-image: url(../imagen/pelota.png);
+	background-repeat: no-repeat;
+	animation: movimiento 1s infinite linear alternate;
+}
+
+@keyframes movimiento {
+	from{
+		background-position: left;
+	}
+	to{
+		background-position: right;
+	}
+}

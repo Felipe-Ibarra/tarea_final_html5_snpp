@@ -1,0 +1,68 @@
+.cartel {
+	margin-left:  80px;
+	margin-bottom: 10px;
+	width: 84%;
+}
+
+.titulo {
+	border-radius: 7px;
+	background-color: #0af;
+}
+
+
+.titulo h2 {
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+.tarea1 {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 30px;
+}
+
+.articulo {
+	width: 100%;
+	margin: 0%;
+}
+
+h2, p {
+	margin: 10px 10px;
+}
+
+.imagen {
+	width: 200px;
+	height: 133px;
+	margin-left: 10px;
+	border: 3px solid #0af;
+	border-radius: 3px;
+}
+
+
+.lateral {
+	color: white;
+	margin: 0px;
+	height: 100%;
+	background-color: #0af;
+}
+
+aside .lateral h3 {
+	margin-top: 5px;
+	margin-left: 30px;
+	font-weight: 800;
+}
+
+.lateral .otro {
+	list-style: none;
+}
+
+aside .lateral .otro li a {			
+	color: white;
+	text-decoration: none;
+}
+
+.banner {
+	margin-top: 10px;
+	margin-left: 30px;
+}
